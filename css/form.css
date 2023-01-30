@@ -1,0 +1,142 @@
+/* Start Global Rules*/
+body {font-family: 'Open Sans', sans-serif;}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* Start Navbar*/
+.scrolled {background-color: rgba(0, 0, 0, .8);}
+
+.navbar .navbar-brand {font-weight: bold; font-size: 30px; color: #fff;}
+
+.navbar a span {font-weight: normal; }
+
+input,
+select {
+  outline: none;
+  border: none;
+  background-color: #eeecec;
+  color: rgb(63, 63, 63);
+  font-size: 15px;
+}
+.calcSection {
+  padding: 0 13%;
+  color: rgb(63, 63, 63);
+  background-image: url("./../images/dubai-mainland-company-formation.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  /* margin: 51px 0 110px 0; */
+  padding-top: 100px !important;
+  z-index: 1;
+}
+.calcSection::before{
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  left: 0; bottom: 0;
+  height: 100%;
+  background-color: rgba(29, 12, 1, 0.6);
+  z-index: -1;
+}
+.calcSection form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.calcSection form h4 {
+  color: rgb(247, 240, 232);
+  margin-top: 10px;
+  font-size: 18px;
+}
+.calcSection form .stRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.calcSection form .firstCol,
+.calcSection form .secCol,
+.calcSection form .thirdCol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.calcSection .part {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.calcSection .part .seletions {
+  background-color: #eeecec !important;
+  padding: 10px;
+}
+.calcSection .part .spanVal {
+  margin-right: 7px;
+  font-size: 15px;
+}
+
+.calcSection form .stRow .countryFlag {
+  height: 35px;
+  padding-right: 30px;
+}
+.calcSection form button {
+  display: flex;
+  align-self: flex-start;
+  padding: 15px 25px;
+  margin-top: 30px;
+  border: none;
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+}
+@media (max-width: 1430px) {
+  .calcSection form .stRow {
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .calcSection {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 1175px) {
+  .calcSection{
+    padding: 0 5%;
+  }
+  /* .calcSection form .stRow {
+    justify-content: center;
+    gap: 50px;
+  } */
+
+  .calcSection form .thirdCol {
+    width: 100%;
+  }
+  .countryFlag {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .calcSection form .thirdCol {
+    width: 100%;
+  }
+}
+@media (max-width: 920px) {
+  .calcSection form .firstCol,
+  .calcSection form .secCol,
+  .calcSection form .thirdCol {
+    width: 100%;
+  }
+  .countryFlag {
+    width: 100%;
+  }
+}
+.footer {background-color: #000;color: #868686;padding: 20px;}
+
+.footer .footer-icon {margin-bottom: 5px;}
+
+.footer .footer-icon i {font-size: 25px;color: #ccc;margin: 10px; }
+

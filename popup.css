@@ -1,0 +1,97 @@
+body{
+    background-image:url("../imges/dubai-mainland-company-formation.jpg") ;
+    font-family: Poppins;
+    min-height: 100vh;
+    background: #fcfffd;
+}
+.trigger_popup_fricc {
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top: 300px;
+    width:100%;
+   
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+   
+    display:block;
+    font-weight: bold;
+    transition: all 0.3s ease-out;
+}
+
+.popup{
+   display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.popup-content{
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top: 300px;
+    width:100%;
+    background: white;
+    box-shadow: 0px 4px 70px 15px rgba(30, 85, 11, 0.31);
+}
+.popup-content .imgbox{
+    position: relative;
+    width: 299px;
+    height: 266px;
+    margin: auto;
+}
+.popup .title{
+    position: relative;
+    font-weight: 500;
+    width: 80%;
+font-size: 24px;
+line-height: 42px;
+letter-spacing: 0.05em;
+color: #0fae15;
+text-align: center;
+margin: auto;
+
+}
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+    border: none;
+   padding: 10px;
+    background: rgba(216, 228, 255, 0.7);
+}
+::placeholder{
+    color: #06c419;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+.button{
+    width: 50%;
+    margin: 15px auto;
+    display: block;
+    background: #0a9a37;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #E4ECFF;
+    text-align: center;
+    cursor: pointer;
+    color: #407BFF;
+    border-radius: 50%;
+    transition: all 200ms;
+}

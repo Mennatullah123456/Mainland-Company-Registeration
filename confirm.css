@@ -1,0 +1,23 @@
+.success-form {
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .success-form input[type=button] {
+    background-color: #3c763d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .success-form input[type=button]:hover {
+    background-color: #28a745;
+  }
+  
